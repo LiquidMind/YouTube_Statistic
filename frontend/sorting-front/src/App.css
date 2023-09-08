@@ -1,0 +1,12 @@
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center; /* Горизонтальне центрування */
+  align-items: center; /* Вертикальне центрування */
+  height: 100vh; /* Встановлює висоту контейнера на 100% висоти вікна браузера */
+  background-color: #112d49;
+}
+
+.centered-content {
+  text-align: center; /* Вирівнювання тексту по центру */
+}

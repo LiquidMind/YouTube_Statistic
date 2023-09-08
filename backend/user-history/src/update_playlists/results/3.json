@@ -1,0 +1,14 @@
+([], ['video1']);
+
+{
+  "unchanged": [],
+  "reordered": [],
+  "added": [
+    {
+      "newOrder": 0,
+      "newVideoId": "video1"
+    }
+  ],
+  "deleted": [],
+  "replaced": []
+}

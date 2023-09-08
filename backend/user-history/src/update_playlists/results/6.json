@@ -1,0 +1,36 @@
+(['video1', 'video2'], ['video2', 'video1'])
+
+
+{
+  "unchanged": [],
+  "reordered": [
+    {
+      "oldOrder": 0,
+      "newOrder": 1,
+      "oldVideoId": "video1",
+      "newVideoId": "video1"
+    },
+    {
+      "oldOrder": 1,
+      "newOrder": 0,
+      "oldVideoId": "video2",
+      "newVideoId": "video2"
+    }
+  ],
+  "added": [],
+  "deleted": [],
+  "replaced": [
+    {
+      "oldOrder": 0,
+      "newOrder": 0,
+      "oldVideoId": "video1",
+      "newVideoId": "video2"
+    },
+    {
+      "oldOrder": 1,
+      "newOrder": 1,
+      "oldVideoId": "video2",
+      "newVideoId": "video1"
+    }
+  ]
+}

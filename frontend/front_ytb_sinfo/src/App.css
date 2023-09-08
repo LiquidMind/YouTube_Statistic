@@ -1,0 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #0d0062;
+}
+
+h1 {
+  font-size: 90px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 0;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  /* overflow-y: hidden; */
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box; /* Included this property */
+  /* background-color: rgba(137, 137, 137, 0.5); */
+}
+
+.videos-container {
+  position: relative;
+  height: 100vh;
+  /* overflow-y: auto; */
+  direction: rtl;
+  margin-top: 50px;
+  padding: 0 5px;
+}
+
+.videos-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.videos-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.youtube-page-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 760px) {
+  .videos-container {
+    width: 40%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 759px) {
+  .app {
+    width: 100%;
+  }
+
+  .videos-container {
+    margin-top: 30vh;
+  }
+
+  .youtube-page-container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  button {
+    padding: 8px;
+    font-size: 15px;
+  }
+}

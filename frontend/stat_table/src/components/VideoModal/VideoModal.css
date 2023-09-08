@@ -1,0 +1,55 @@
+.Modal {
+  display: flex;
+  justify-content: center;
+  background: #263238;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.closePlayerBtn {
+  font-size: 1.5rem;
+  background: #ff0000;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+.closePlayerBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.closePlayerBtn:active {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.closePlayerBtn:focus {
+  outline: none;
+}
+.react-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

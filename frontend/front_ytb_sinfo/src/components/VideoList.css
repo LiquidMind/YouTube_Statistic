@@ -1,0 +1,40 @@
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Змінено від 100px до 200px */
+}
+
+.menu {
+  position: fixed;
+  z-index: 999;
+  top: 10px;
+}
+
+@media (max-width: 760px) {
+  .menu {
+    position: fixed;
+    width: 250px;
+    z-index: 999;
+    top: 0px;
+    right: 0px;
+  }
+}
+
+.up-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.up-button:hover {
+  background-color: #0056b3;
+}

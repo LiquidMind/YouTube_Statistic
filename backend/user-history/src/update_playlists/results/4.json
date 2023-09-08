@@ -1,0 +1,9 @@
+(['video1'], ['video1'])
+
+{
+  "unchanged": ["video1"],
+  "reordered": [],
+  "added": [],
+  "deleted": [],
+  "replaced": []
+}

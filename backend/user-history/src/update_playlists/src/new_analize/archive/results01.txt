@@ -1,0 +1,24 @@
+[],
+[ 'FzLoU_Hmd4o', 'gXcfxPARAIA', '2uCJR_AjGac' ],
+[], ['video1', 'video2', 'video3']
+
+{
+  "unchanged": [],
+  "reordered": [],
+  "added": [
+    {
+      "newOrder": 0,
+      "newVideoId": "FzLoU_Hmd4o"
+    },
+    {
+      "newOrder": 1,
+      "newVideoId": "gXcfxPARAIA"
+    },
+    {
+      "newOrder": 2,
+      "newVideoId": "2uCJR_AjGac"
+    }
+  ],
+  "deleted": [],
+  "replaced": []
+}

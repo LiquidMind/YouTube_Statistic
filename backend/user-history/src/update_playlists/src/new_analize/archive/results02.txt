@@ -1,0 +1,57 @@
+
+[ 'FzLoU_Hmd4o', 'gXcfxPARAIA', '2uCJR_AjGac' ],[ 'HoIRaiwJflM', 'WTkGeGE9kVg', 'tP_d-yfcjhc' ]
+
+['video1', 'video2', 'video3'], ['video4', 'video5', 'video6']
+
+{
+  "unchanged": [],
+  "reordered": [],
+  "added": [
+    {
+      "newOrder": 0,
+      "newVideoId": "HoIRaiwJflM"
+    },
+    {
+      "newOrder": 1,
+      "newVideoId": "WTkGeGE9kVg"
+    },
+    {
+      "newOrder": 2,
+      "newVideoId": "tP_d-yfcjhc"
+    }
+  ],
+  "deleted": [
+    {
+      "oldOrder": 0,
+      "oldVideoId": "FzLoU_Hmd4o"
+    },
+    {
+      "oldOrder": 1,
+      "oldVideoId": "gXcfxPARAIA"
+    },
+    {
+      "oldOrder": 2,
+      "oldVideoId": "2uCJR_AjGac"
+    }
+  ],
+  "replaced": [
+    {
+      "oldOrder": 0,
+      "newOrder": 0,
+      "oldVideoId": "FzLoU_Hmd4o",
+      "newVideoId": "HoIRaiwJflM"
+    },
+    {
+      "oldOrder": 1,
+      "newOrder": 1,
+      "oldVideoId": "gXcfxPARAIA",
+      "newVideoId": "WTkGeGE9kVg"
+    },
+    {
+      "oldOrder": 2,
+      "newOrder": 2,
+      "oldVideoId": "2uCJR_AjGac",
+      "newVideoId": "tP_d-yfcjhc"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+.videos-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.video {
+  margin-right: 20px;
+  display: flex;
+  width: 500px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 45%;
+  border: 3px solid transparent;
+  transition: border-color 0.9;
+}
+
+.hovered-1 .video-0 {
+  background: radial-gradient(circle, #1aff00 0%, #bec960 100%);
+}
+
+.hovered-1 .video-1 {
+  background-color: #ff0000;
+}
+
+.button-container {
+  display: flex;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.animated-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.3s;
+}
+
+.animated-button:hover {
+  transform: scale(1.1);
+}
+
+.hovered-2 .video-0,
+.hovered-2 .video-1 {
+  background: radial-gradient(circle, #53e206 0%, #bec960 100%);
+  border-radius: 4px;
+}
+
+.hovered-3 .video-0 {
+  background: radial-gradient(circle, #ff0000 0%, #dc0030 100%);
+  border-radius: 4px;
+}
+
+.hovered-3 .video-1 {
+  background: radial-gradient(circle, #1aff00 0%, #bec960 100%);
+}
+.titleVideos {
+  margin-bottom: 20px;
+}
+
+.youtube-player {
+  width: 500px;
+  height: 300px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+.button-active {
+  border: #ff0000;
+  color: #1aff00;
+}

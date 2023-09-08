@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: #cdcaca;
+}
+
+h1,
+h4 {
+  margin: 0;
+}
+
+.app {
+  /* text-align: center;
+  padding: 40px 0 40px 0; */
+}
+
+/* .container {
+  max-width: 1260px;
+  display: flex;
+  padding-bottom: 40px;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+} */

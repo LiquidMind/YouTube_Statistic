@@ -1,0 +1,29 @@
+.scroll-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 70px;
+  height: 70px;
+  background-color: #ff0000; /* Червоний колір YouTube */
+  color: #ffffff; /* Білий колір тексту */
+  border-radius: 50%; /* Округла форма кнопки */
+  cursor: pointer; /* Вказівник при наведенні */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); /* Тінь для піднятого ефекту */
+  transition: all 0.3s ease-in-out; /* Плавний перехід для hover ефекту */
+  font-size: 20px; /* Розмір тексту */
+  opacity: 0.5;
+}
+
+.scroll-to-top:hover {
+  transform: scale(1.1); /* Збільшує кнопку при наведенні */
+  opacity: 1;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .scroll-to-top {
+    width: 40px;
+    height: 40px;
+  }
+}

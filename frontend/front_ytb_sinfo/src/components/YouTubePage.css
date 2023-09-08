@@ -1,0 +1,69 @@
+.youtube-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  width: 70%;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #333333, #111111);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.youtube-player {
+  max-width: 550px;
+  height: 350px;
+}
+
+.youtube-button {
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+}
+
+.youtube-button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1200px) {
+  .youtube-player {
+    width: 95%;
+  }
+}
+
+@media (max-width: 760px) {
+  .youtube-page {
+    width: 90%;
+    height: 350px;
+    top: 30%;
+    position: fixed;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .youtube-player {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .youtube-button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+  .youtube-page {
+    margin-top: 10px;
+  }
+
+  .youtube-button {
+    padding: 10px 15px;
+  }
+}

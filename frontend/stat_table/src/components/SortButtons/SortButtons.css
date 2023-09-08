@@ -1,0 +1,177 @@
+.table-title {
+  font-size: 14px;
+  display: block;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #263238;
+  padding: 4px;
+  height: 38px;
+}
+
+.button-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.button-list button {
+  border-bottom: 1px solid #000;
+  background-color: #e2e2e2;
+}
+
+.sort-button {
+  padding: 10px;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  width: 100%;
+  height: 55px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.sort-button:hover {
+  background-color: #ffffff;
+}
+
+.sort-button.active {
+  background-color: #ffffff;
+}
+
+.sort-button::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  background-color: red;
+  transition: width 0.3s ease;
+}
+
+.sort-button:hover::after,
+.sort-button.active::after {
+  width: 100%;
+}
+
+.statPlaylist {
+  width: 100%;
+  border: 1px solid #000;
+}
+.statList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  font-size: 22px;
+  font-weight: bold;
+}
+.statList li {
+  margin-bottom: 20px;
+}
+
+.burger-menu {
+  color: #ff0000;
+  font-size: 40px;
+  cursor: pointer;
+  position: fixed;
+  top: 45px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.table-container.active {
+  left: 0; /* Змінюємо left до 0, коли меню активне */
+}
+
+.table-container {
+  max-width: 300px;
+  /* margin-left: 10px; */
+  position: fixed;
+  top: 0;
+  left: -300px; /* Початкова позиція меню зліва */
+  height: 100%;
+  margin-right: 20px;
+  background-color: #cdcaca;
+  transition: left 0.3s ease;
+  /* overflow-y: scroll;  */
+  z-index: 1000;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none; /* Приховуємо бургер-меню на екранах шириною 768px і більше */
+  }
+  .table-container {
+    margin-top: 20px;
+    position: fixed; /* Використовуємо звичайну позицію на екранах шириною 768px і більше */
+    left: auto; /* Скидуємо властивість left */
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
+  /* .table-title {
+    font-size: 1px;
+  } */
+}
+
+
+.statBlock{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: b;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.navigation-arrows {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px; /* Відстань між стрілками */
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.arrow-up {
+  border-width: 0 10px 15px 10px;
+  border-color: transparent transparent #007bff transparent;
+  transition: all 0.3s;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+}
+
+.arrow-down {
+  border-width: 15px 10px 0 10px;
+  border-color: #007bff transparent transparent transparent;
+  transition: all 0.3s;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+}
+
+.arrow-up:hover, .arrow-down:hover {
+  transform: scale(1.2);
+}
+.statusText.added {
+  color: green;
+}
+
+.statusText.deleted {
+  color: red;
+}
+
+.statusText.reordered {
+  color: orange;
+}
+
+.statusText.unchanged {
+  color: grey;
+}

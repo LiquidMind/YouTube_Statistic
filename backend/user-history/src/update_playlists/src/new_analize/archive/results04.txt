@@ -1,0 +1,48 @@
+[ 'HoIRaiwJflM', 'WTkGeGE9kVg', 'tP_d-yfcjhc' ], [ 'tP_d-yfcjhc', 'HoIRaiwJflM', 'WTkGeGE9kVg' ]
+['video1', 'video2', 'video3'], ['video3', 'video1', 'video2']
+
+{
+  "unchanged": [],
+  "reordered": [
+    {
+      "oldOrder": 0,
+      "newOrder": 1,
+      "oldVideoId": "HoIRaiwJflM",
+      "newVideoId": "HoIRaiwJflM"
+    },
+    {
+      "oldOrder": 1,
+      "newOrder": 2,
+      "oldVideoId": "WTkGeGE9kVg",
+      "newVideoId": "WTkGeGE9kVg"
+    },
+    {
+      "oldOrder": 2,
+      "newOrder": 0,
+      "oldVideoId": "tP_d-yfcjhc",
+      "newVideoId": "tP_d-yfcjhc"
+    }
+  ],
+  "added": [],
+  "deleted": [],
+  "replaced": [
+    {
+      "oldOrder": 0,
+      "newOrder": 0,
+      "oldVideoId": "HoIRaiwJflM",
+      "newVideoId": "tP_d-yfcjhc"
+    },
+    {
+      "oldOrder": 1,
+      "newOrder": 1,
+      "oldVideoId": "WTkGeGE9kVg",
+      "newVideoId": "HoIRaiwJflM"
+    },
+    {
+      "oldOrder": 2,
+      "newOrder": 2,
+      "oldVideoId": "tP_d-yfcjhc",
+      "newVideoId": "WTkGeGE9kVg"
+    }
+  ]
+}
