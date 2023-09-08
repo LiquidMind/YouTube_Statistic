@@ -31,7 +31,7 @@ const App = () => {
         {selectedVideo && <div>Відео ID: {selectedVideo}</div>}
       </div>
       <ScrollToTopButton />
-      <RegistrationForm />
+      {/* <RegistrationForm /> */}
     </div>
   );
 };
